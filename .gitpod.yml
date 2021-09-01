@@ -19,4 +19,4 @@ ports:
 
 vscode:
   extensions:
-    - azuretools.vscode-docker
+    - ms-azuretools.vscode-docker
