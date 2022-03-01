@@ -14,11 +14,11 @@ github:
     addComment: false
     addBadge: true
 
-ports:
-  - port: 5432
-    onOpen: ignore
-  - port: 8088
-    onOpen: ignore
+# ports:
+#   - port: 5432
+#     onOpen: ignore
+#   - port: 8088
+#     onOpen: ignore
 
 
 
