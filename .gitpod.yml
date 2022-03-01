@@ -6,17 +6,8 @@ tasks:
 
 
 ports:
-  - port: 5000
+  - port: 5432
     onOpen: ignore
-  - port: 5601
-    onOpen: open-browser
-  - port: 9200
-    onOpen: open-preview
-  - port: 9300
-    onOpen: ignore
-  - port: 9600
+  - port: 8088
     onOpen: ignore
 
-vscode:
-  extensions:
-    - ms-azuretools.vscode-docker
