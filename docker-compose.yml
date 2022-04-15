@@ -48,3 +48,6 @@ services:
 networks:
   elastic:
     driver: bridge
+    # default MTU size in docker-compose is 1500
+    driver_opts:
+      com.docker.network.driver.mtu: 1440
