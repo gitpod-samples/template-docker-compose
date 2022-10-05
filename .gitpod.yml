@@ -2,7 +2,8 @@ tasks:
   - init: |
       docker-compose pull
   - command: |
-      docker-compose up
+      docker-compose up -d
+
 
 
 ports:
